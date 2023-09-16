@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&family=Sriracha&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100%vw;
+    height: 90vh;
+    background-color:   rgb(16, 2, 40);
+    margin-top: 10px;
+    font-family: 'Palanquin Dark', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#imagem{
+    background-image: url(../img/forca.png);
+    width: 234px;
+    height: 272px;
+    background-repeat: no-repeat;
+}
+
+#palavra-secreta {
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+.letras {
+    width: 16px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#teclado {
+    margin-top: 30px;
+}
